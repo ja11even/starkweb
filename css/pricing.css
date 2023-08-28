@@ -1,0 +1,195 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.header{
+    background-color: rgb(17, 16, 16);
+}
+
+.headerow{
+    display: flex;
+    padding: 27px 0;
+    gap: 320px;
+}
+.headerow p{
+    color: white;
+    font-size: 2rem;
+}
+.headerow ul{
+    display: flex;
+    gap: 12px;
+    font-size: 1.7rem;
+}
+.headerow li{
+    list-style: none;
+    margin-right: 3px;
+}
+.headerow a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.headerow i{
+    font-size: 12px;
+}
+.headerow a:hover{
+    color: white;
+}
+.prcbody{
+    background-color: #eeeeee;
+    padding-bottom: 150px;
+}
+.prcbody1{
+    text-align: center;
+    padding-top: 90px;
+}
+.prcbody1 h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.prcbody1 p{
+    font-size: 22px;
+    padding-top: 7px;
+    color: grey;
+}
+.prcbdyrw{
+    display: flex;
+    padding-top: 30px;
+    width: 90%;
+}
+.prcbdycard{
+    width:380px ;
+    height:500px;
+    border: 1px solid black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.taghouse{
+    padding-left: 50px;
+}
+.style1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+}
+.style2 span{
+    font-size: 70px;
+    font-weight: bolder;
+    color: black;
+}
+.style2{
+    font-size: 1.7rem;
+    color: grey;
+}
+.oneusers{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.taghouse p{
+    font-size: 1.8rem;
+    padding-top: 10px;
+}
+.taghouse{
+    padding-top: 28px;
+}
+.buttr{
+font-size: 17px;
+padding: 7px;
+margin-top: 22px;
+width: 280px;
+background-color: white;
+color: #1F51FF;
+border-radius: 5px;
+border: 1px solid #1F51FF;
+}
+.buttr:hover{
+    background-color: #1F51FF;
+    color: white;
+}
+.taghouse i{
+    color: blue;
+    font-size: 13px;
+    font-weight:bold ;
+}
+.skprt{
+    color: grey;
+}
+.skprt i{
+    color: grey;
+    font-size: 13px;
+}
+.style4 i{
+    color: gold;
+    font-size: 16px;
+}
+.style4{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+}
+.buttre{
+    font-size: 17px;
+padding: 7px;
+margin-top: 22px;
+width: 280px;
+background-color: #1F51FF;
+color: white;
+border-radius: 5px;
+border: 1px solid #1F51FF;
+}
+.buttre:hover{
+    background-color: rgb(1, 42, 223);
+    cursor: pointer;
+}
+.span{
+    font-weight: bolder;
+}
+.style3 span{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black;
+}
+.thefooter{
+    background-color: #111010;
+    color: white;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.thefooterrow{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top:20px ;
+}
+.thefooterrow ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.thefooterrow ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.fonp i{
+        font-size: 5px;
+        margin-top: 7px;
+}
+.fonr h3{
+    font-size: 16px;
+}
+.fonr i{
+    font-size: 15px;
+}
+.fonr{
+    margin-left: 88px;
+}
+.fonp{
+    margin-right: 88px;
+}

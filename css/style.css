@@ -1,0 +1,426 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.header{
+    background-color: rgb(17, 16, 16);
+}
+.headerow{
+    display: flex;
+    padding: 27px 0;
+    gap: 320px;
+}
+.headerow p{
+    color: white;
+    font-size: 2rem;
+}
+.headerow ul{
+    display: flex;
+    gap: 12px;
+    font-size: 1.7rem;
+}
+.headerow li{
+    list-style: none;
+    margin-right: 3px;
+}
+.headerow a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.headerow i{
+    font-size: 12px;
+}
+.headerow a:hover{
+    color: white;
+}
+.bannerrow img{
+    width: 480px;
+    height: 330px;
+
+}
+.bannercont{
+    background-color: rgb(17, 16, 16);;
+    padding: 7%;
+}
+.bannerrow{
+    display: flex;
+    gap: 90px;
+}
+.bannerrow h1{
+    color: white;
+    font-size: 5rem;
+}
+.bannerrow p{
+    color: gray;
+    font-size: 1.7rem;
+}
+.bannerrow h1{
+    padding-bottom: 10px;
+}
+.bannerrow p{
+    padding-bottom: 45px;
+}
+.bannerrow .getready{
+    font-size: 2rem;
+    margin-right: 17px;
+    background-color: rgb(91, 91, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.bannerrow .learnmore{
+    font-size: 1.9rem;
+    background-color: rgb(17, 16, 16);;
+    color: white;
+    border: none;
+    outline: 1px solid white;
+    border-radius:5px ;
+    padding:10px ;
+}
+.bannerrow .learnmore:hover{
+    color: black;
+    background-color: white;
+}
+.restrow{
+    background-color: white;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.headieone{
+    font-size: 20px;
+    font-weight: bold;
+    width: 390px;
+    height: 150px;
+    margin-top: 70px;
+}
+.flexrow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+.third{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.third img{
+    padding-bottom: 10px;
+}
+.third h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.third p{
+    font-size: 19px;
+    font-weight: lighter;
+    color: rgb(53, 53, 53);
+}
+.middle{
+    background-color:#dee2e6; 
+    padding: 80px;
+}
+.writeup{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.writeup h2{
+    width: 500px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+.circle{
+    display: flex;
+    width: 25%;
+}
+.circle .pomo{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    padding-top: 12px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: grey;
+    color:#ced4da;
+}
+.ring{
+    padding-top: 8px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 14px;
+}
+.ring span{
+    color: blue;
+    font-weight: bold;
+    font-size: 22px;
+}
+.footer{
+    background-color: white;
+    padding: 50px;
+}
+.footyhone{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.ptag{
+    text-align: center;
+    font-size: 1.9rem;
+    width: 550px;
+    color: #7f8488; 
+    padding-bottom: 50px;
+}
+.cardrow{
+    display: flex;
+    justify-content: space-between;
+}
+.firstcard{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(190, 190, 190);
+}
+.secondcard{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(190, 190, 190);
+}
+.thirdcard{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(190, 190, 190);
+}
+.firstcard .hone{
+    width: 400px;
+    height: 150px;
+    background-color: #eeeeee;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.firstcard .news{
+    width: 60px;
+    height: 30px;
+    padding-top: 7px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #2277f8;
+    border-radius: 20px;
+    font-weight: lighter;
+    color: white;
+}
+.firstcard .bpt{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 12px;
+    padding-top: 10px;
+    font-size: 11px;
+}
+.firstcard .p1tag{
+    width: 370px;
+    height: 150px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 30px;
+    color: #7c7c7c;
+}
+.line1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.last{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.secondcard .hone{
+    width: 400px;
+    height: 150px;
+    background-color: #eeeeee;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.secondcard .news{
+    width: 60px;
+    height: 30px;
+    padding-top: 7px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #2277f8;
+    border-radius: 20px;
+    font-weight: lighter;
+    color: white;
+}
+.secondcard .bpt{
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.secondcard .p1tag{
+    width: 370px;
+    height: 150px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    color: #7c7c7c;
+}
+
+.honeee{
+    width: 400px;
+    height: 150px;
+    background-color:#eeeeee;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.newsss{
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #2277f8;
+    text-align: center;
+    border-radius: 28px;
+}
+.bpttt{
+    width: 350px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.p1taggg{
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    color: #7c7c7c;
+}
+
+.cardrow{
+    padding-bottom: 30px;
+}
+.boxrow{
+ display: flex;
+ margin-bottom: 8px;
+ padding-top: 62px;
+}
+.secondrow{
+    display: flex;
+    padding-bottom: 70px;
+}
+.line111{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 17px;
+}
+.lasty2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+input[type=email]{
+    width: 305px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+}
+.emaile label{
+    font-size: 15px;
+}
+.sdp1{
+    font-size: 16px;
+    margin-left: 45px;
+    color: #bebebe;
+}
+.sdp2{
+    font-size: 16px;
+    margin: 0 auto;
+    color: #bebebe;
+}
+.footie{
+    font-size: 29px;
+    font-weight: bolder;
+    margin-left: 45px;
+    color: white;
+}
+.emaile{
+    padding-left: 99px;
+    color: white;
+    margin-left: 10px;
+}
+.ondo{
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-right:10px;
+}
+.boxy{
+    width: 90%;
+    height: 200px;
+    background-color: #4781ff;
+    border-radius: 9px;
+}
+.box{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.thefooter{
+    background-color: #111010;
+    color: white;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.thefooterrow{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top:20px ;
+}
+.thefooterrow ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.thefooterrow ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.fonp i{
+        font-size: 5px;
+        margin-top: 7px;
+}
+.fonr h3{
+    font-size: 16px;
+}
+.fonr i{
+    font-size: 15px;
+}
+.fonr{
+    margin-left: 88px;
+}
+.fonp{
+    margin-right: 88px;
+}
